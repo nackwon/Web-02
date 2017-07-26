@@ -1,0 +1,207 @@
+/****** font ******/
+@import url(http://fonts.googlepis.com/earlyaccess/notosanskr.css);
+
+@import url(http://fonts.googlepis.com/earlyaccess/hanna.css);
+
+@import url(http://fonts.googlepis.com/earlyaccess/nanumgothic.css);
+
+* {
+	font-family: 'nanum Gothic';
+}
+
+h1 {
+	font-family: 'Hanna';
+}
+
+.content-area {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+}
+
+.carousel-indicators .active {
+	height: 25px;
+	width: 25px;
+}
+/****** align ******/
+.location {
+	text-align: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.margin-left {
+	margin-left: 16px
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.background-light-gray {
+	background-color: #f1f1f1 !important
+}
+
+/****** color ******/
+.color-back-gray {
+	background-color: #dddddd;
+}
+
+.color-grey {
+	color: #757575 !important
+}
+
+.color-light-blue {
+	color: #87CEEB !important
+}
+
+.color-light-gray {
+	color: #f1f1f1 !important
+}
+
+/****** login - form ******/
+.login-container {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(52, 73, 94, 0.7);
+	margin-top: 100px;
+}
+
+.login-container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+	height: 35px;
+	width: 200px;
+	border: none;
+	border-radius: 4px;
+	font-size: 13px;
+	padding-left: 10px;
+	margin-bottom: 13px;
+	background-color: #fff;
+}
+
+.btn-login {
+	padding: 5px 15px;
+	height: 35px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #2ECC71;
+	border-bottom: 3px solid #27AE60;
+	margin-bottom: 2px;
+}
+
+a {
+	color: #fff;
+}
+
+/****** join-form ******/
+.join-container {
+	background-color: rgba(52, 73, 94, 0.7);
+	margin: auto;
+	height: 550px;
+	width: 460px;
+	margin-top: 100px;
+	border-radius: 5px;
+	text-align: center
+}
+
+.join {
+	padding-top: 10px;
+}
+
+.margin-top {
+	margin-top: 10px;
+}
+
+.upper input {
+	height: 45px;
+	width: 450px;
+	border: 1px solid #f0f0f0;
+}
+
+.middle, .bottom {
+	width: 450px;
+	padding-left: 5px;
+}
+
+input[name="btn"] {
+	position: absolute;
+	color: #333;
+	display: block;
+	width: 75px;
+	height: 40px;
+	margin-left: 370px;
+	margin-top: 3px;
+}
+
+input[name="name"], input[name="nickname"] {
+	height: 45px;
+	width: 450px;
+	border: 1px solid #f0f0f0;
+}
+
+select[name="phone_1"] {
+	border: 1px solid #f0f0f0;
+	width: 145px;
+	height: 45px;
+	border: 0px;
+	margin-left: 0px;
+}
+
+select[name="email_2"] {
+	width: 145px;
+	height: 45px;
+	border: 0px;
+}
+
+.phone input {
+	border: 1px solid #f0f0f0;
+	width: 145px;
+	height: 45px;
+}
+
+.bottom input {
+	border: 1px solid #f0f0f0;
+	width: 450px;
+	height: 45px;
+}
+
+input[name="btn-join"], input[name="btn-cancel"] {
+	color: #fff;
+	background: #2ecc71;
+	width: 220px;
+	height: 45px;
+}
+
+/* BBS- table */
+.table-border-style {
+	border: 1px solide #dddddd;
+	text-align: center;
+}
+
+.table-th-style {
+	text-align: center;
+	background-color: #eeeeee;
+}
